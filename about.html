@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browns town Community College</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+    <a href="index.html"><img src="images/btcc logo.jpeg" ></a>
+     <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href ="about.html">about</a></li>
+            <li><a href ="course.html">Offerings</a></li>
+            <li><a href ="blog.html">Blog</a></li>
+            <li><a href ="Contact.html">Contact</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+   <h1>About Us</h1>
+ </section>
+
+<!----about us content by Gio------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the wolrd's largest university</h1>
+            <p>Established in 2001, our program has quickly become a respected and dynamic force in the region. Initially created to meet the growing demand for skilled IT professionals, we started with a modest cohort of twenty students. Over the years, we have expanded our reach globally.
+
+                Our journey began in a small yet well-equipped facility with two dedicated instructors who were passionate about technology and education. Their vision was clear: to develop a curriculum that blends technical skills with real-world applications. The early success of our graduates, who went on to lead major tech initiatives, laid the foundation for our reputation.
+                
+                In 2010, we reached a milestone with the expansion of our campus facilities. This included the addition of advanced labs simulating real-world tech environments and the inauguration of our main library, now housing over 10,000 specialized resources in technology and applied sciences.
+                
+                Recognized with numerous awards and accreditations, we are committed to maintaining excellence in technology education. Our mission remains steadfast: to equip students with the skills, knowledge, and experience to thrive in the ever-evolving tech sector.
+                
+                Join us in contributing to the rich history of innovation and success in technology education. Discover how you can shape the future of technology with us.</p>
+                <a href="" class="hero-btn red-btn"> EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+
+
+</section>
+
+
+<!--------Footer by Gio------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to providing an excellent education in computer technology, blending theoretical knowledge with practical experience in our state-of-the-art facilities. Our faculty are experienced professionals and dedicated educators who focus on preparing students for current and future industry demands.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+    </div>
+    <p>Made by Browns Town Community College </p>
+</section>
+
+
+
+
+
+
+<!----------Javascript for toggle menu created by Gio-->
+ <script>
+
+var navlinks = document.getElementById("navlinks");
+function showmenu(){
+    navLinks.style.right = "0"
+}
+function hidemenu(){
+    navLinks.style.right = "-200px"
+}
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browns town Community College</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+    <a href="index.html"><img src="images/btcc logo.jpeg" ></a>
+     <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href ="about.html">about</a></li>
+            <li><a href ="course.html">Offerings</a></li>
+            <li><a href ="blog.html">Blog</a></li>
+            <li><a href ="Contact.html">Contact</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+   <h1>Contact Us</h1>
+ </section>
+
+<!----Contact us content by Gio------>
+<section class ="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30288.494881643644!2d-77.38807689142665!3d18.39003554139036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eda52ae1bbdda9f%3A0x295aa6f292ffc43d!2sBrowns%20Town!5e0!3m2!1sen!2sjm!4v1714607771904!5m2!1sen!2sjm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>   
+                <span>
+                    <h5> Browns Town Road, Community College</h5>
+                    <p>Jamiaca, St.Ann</p>
+                </span>
+            </div>
+            <div>
+             <i class="fa fa-phone"></i>   
+                <span>
+                    <h5> +1876-366-7972</h5>
+                    <p>Monday to Saturday, 9:00AM to 4:00PM</p>
+                    </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>   
+                   <span>
+                       <h5>info@giovanniblackburn681@gmail.com</h5>
+                       <p>Email us Your query</p>
+                       </span>
+               </div>
+        </div>
+        <div class="contact-col">
+
+         <form action="form-handler.php" method="post">
+          <input type = "text" name ="name" placeholder="Enter Your Name" required>
+          <input type = "email"  name ="email" placeholder="Enter email Address" required>
+          <input type = "text"  name ="subject" placeholder="Enter Your subject" required>
+          <textarea rows="8"  name ="message" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn red-btn">Send Message</button>
+         </form>
+            
+        </div>
+    </div>
+</section>
+
+<!--------Footer by Gio------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to providing an excellent education in computer technology, blending theoretical knowledge with practical experience in our state-of-the-art facilities. Our faculty are experienced professionals and dedicated educators who focus on preparing students for current and future industry demands.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+    </div>
+    <p>Made by Browns Town Community College </p>
+</section>
+
+
+
+
+
+
+<!----------Javascript for toggle menu created by Gio-->
+ <script>
+
+var navlinks = document.getElementById("navlinks");
+function showmenu(){
+    navLinks.style.right = "0"
+}
+function hidemenu(){
+    navLinks.style.right = "-200px"
+}
+
+ </script>
+</body>
+</html>

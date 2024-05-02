@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browns town Community College</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+       <a href="index.html"><img src="images/btcc logo.jpeg" ></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hidemenu()"></i>
+   
+           <ul>
+               <li><a href ="index.html">Home</a></li>
+               <li><a href ="about.html">about</a></li>
+               <li><a href ="course.html">Offerings</a></li>
+               <li><a href ="blog.html">Blog</a></li>
+               <li><a href ="Contact.html">Contact</a></li>
+           </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+       </nav>
+      <h1>Our Courses:</h1>
+    </section>
+   
+   <!----Courses content by Gio------>
+   <section class="Course">
+    <h1>Top Reasons to Join Our Courses Today:</h1>
+    <p>JOIN THE COMPUTER TECHNOLOGY COUSRE NOW!!</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Career Advancement</h3>
+            <p>Our courses are designed to equip participants with the latest industry-relevant skills and knowledge, which are essential for climbing the professional ladder. Whether you're looking to secure a promotion, pivot to a new field, or simply stay competitive in your current role, our training programs provide the tools and credentials needed to achieve your career goals.</p>
+        </div>
+        <div class="course-col">
+            <h3>Personalized Learning Experience</h3>
+            <p>We understand that everyone's learning style is unique. That's why our courses offer personalized learning paths that include interactive sessions, hands-on projects, and one-on-one mentorship. This approach ensures that each learner can move at their own pace and receive support tailored to their specific needs and interests.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Networking Opportunities</h3>
+            <p>Joining our courses provides more than just educational benefits; it also opens up numerous networking opportunities. Participants will connect with like-minded professionals and industry experts, fostering relationships that can lead to future collaborations, job opportunities, and professional growth. These connections are invaluable in today’s dynamic job market.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!--Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>The Facilities at our institution are designed to inspire creativity, foster collaboration, and provide a cutting-edge learning environment.</p>
+    <div class = "row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class library</h3>
+            <p>Our library is a vibrant hub of knowledge and resources tailored to support and enrich the learning experience of every student. With an extensive collection of books, journals, and digital resources focused on computer technology and related fields, the library offers a comprehensive and up-to-date repository of information. </p>
+    
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Our campus boasts the largest playground in the region, a sprawling and beautifully maintained space designed for both leisure and athletic pursuits. This expansive area is equipped with state-of-the-art facilities for a variety of sports, making it an ideal place for students to engage in physical activity, team sports, and personal fitness. </p>
+    
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our campus dining services are committed to providing tasty and healthy food options that cater to a wide range of dietary preferences and nutritional needs. </p>
+    
+        </div>
+    
+    </div>
+    
+    </section>
+  
+   
+   
+   <!--------Footer by Gio------->
+   <section class="footer">
+       <h4>About Us</h4>
+       <p>We are committed to providing an excellent education in computer technology, blending theoretical knowledge with practical experience in our state-of-the-art facilities. Our faculty are experienced professionals and dedicated educators who focus on preparing students for current and future industry demands.</p>
+       <div class="icons">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-linkedin"></i>
+           
+       </div>
+       <p>Made by Browns Town Community College </p>
+   </section>
+   
+   
+   
+   
+   
+   
+   <!----------Javascript for toggle menu created by Gio-->
+    <script>
+   
+   var navlinks = document.getElementById("navlinks");
+   function showmenu(){
+       navLinks.style.right = "0"
+   }
+   function hidemenu(){
+       navLinks.style.right = "-200px"
+   }
+   
+    </script>
+   </body>
+   </html>
